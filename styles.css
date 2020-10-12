@@ -1,0 +1,79 @@
+body {
+	background-color: #7ec7a5;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.header > h1 {
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+}
+
+.delete {
+	display: none;
+}
+
+#input {
+	padding: 10px 20px;
+	font-size: 15px;
+	width: 250px;
+	background-color: #3ba8f5;
+	color: #074207;
+	border: 0;
+}
+
+.strike {
+	text-decoration: line-through;
+	color: #07420759;
+}
+
+
+input::placeholder {
+	color: #074207;
+}
+
+ul button {
+	padding: 10px;
+	font-size: 15px;
+	border: 0;
+	background-color: #074207;
+	color: #f9fdff;
+}
+
+#list {
+	padding: 0;
+}
+
+ul li {
+	padding: 5px;
+	list-style: none;
+	font-size: 20px;
+	border: 2px #074207 solid;
+	margin-top: 8px;
+	background-color: #3ba8f5;
+	color: #074207;
+}
+
+li:hover > .delete {
+	display: inline;
+	float: right;
+}
+
+span {
+	color: #074207;
+	font-style: italic;
+	font-weight: bold;
+}
+
+span:hover {
+	cursor: pointer;
+}
+
